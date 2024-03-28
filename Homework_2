@@ -1,0 +1,7 @@
+const isCastle = (type) => type === 'Castle';
+
+isCastle('Sea'); // false
+
+const result = 5 > 4;
+console.log(result); // => true
+console.log('one' !== 'one'); // => false
