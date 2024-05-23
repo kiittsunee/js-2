@@ -7,5 +7,5 @@ const isFirstLetterInUpperCase = (string) => {
     return firstLetter.toUpperCase() === firstLetter;
   };
   
-  isFirstLetterInUpperCase('marmont'); // false
-  isFirstLetterInUpperCase('Robb');    // true
+  console.log(isFirstLetterInUpperCase('marmont')); // false
+  console.log(isFirstLetterInUpperCase('Robb'));    // true
